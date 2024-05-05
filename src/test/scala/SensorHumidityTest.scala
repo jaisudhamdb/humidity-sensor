@@ -1,7 +1,9 @@
 package test.scala
 
 import java.io.File
-
+import com.sensor.SensorStaticSparkImpl
+import org.scalatest.FunSuite
+import org.scalatest.Matchers._
 
 class SensorHumidityTest extends FlatSpec with Matchers {
 

@@ -1,7 +1,8 @@
 import java.io.File
 import scala.collection.immutable
 import scala.collection.mutable.ListBuffer
-
+import org.apache.spark.{SparkConf, SparkContext}
+import org.apache.spark.sql.SQLContext
 object SensorHumidity extends App {
 
   var fileList: List[File] = null
